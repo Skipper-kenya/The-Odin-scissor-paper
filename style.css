@@ -1,0 +1,41 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgb(85, 72, 170) 0%,
+    rgb(164, 164, 208) 50%,
+    rgb(56, 172, 195) 100%
+  );
+  font-family: Helvetica;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: 2px solid #ccc;
+  border-radius: 2em;
+  background: #aaa;
+  padding: 20px;
+  text-align: center;
+}
+
+#result,
+#score {
+  height: 1.2em;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+button {
+    width: 5em;
+    border: none;
+    background: almond;
+}
+
+button:hover {
+    background: lightgray;
+}
